@@ -1,7 +1,6 @@
 import React from 'react'
 import { ChakraProvider } from '@chakra-ui/react'
 import Header from './components/Header'
-import Nav from './components/Nav'
 import theme from './theme'
 
 const App = () => {
@@ -20,7 +19,6 @@ const App = () => {
           <ul className="circles">{stars()}</ul>
         </div>
       </div>
-      <Nav />
       <Header />
     </ChakraProvider>
   )

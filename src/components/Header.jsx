@@ -34,6 +34,7 @@ import {
   SiGithub,
   SiLinkedin,
   SiLeetcode,
+  SiMedium,
 } from 'react-icons/si'
 import '../index.css'
 import image from '../sketch-pic.jpeg'
@@ -94,9 +95,9 @@ export default function Header() {
                 <span className="highlighted-word">full-stack domain</span> and
                 currently at -{' '}
                 <span className="highlighted-word">
-                  Bajaj Finserv Health, Pune
-                </span>
-                .
+                  Bajaj Finserv Health, Pune.
+                </span>{' '}
+                (2 YOE - FullTime + Internships).
               </Text>
             </Box>
             {/* About Container Ends */}
@@ -222,8 +223,8 @@ export default function Header() {
                 </Link>
               </Text>
               <Text>
-                <Link href="https://www.instagram.com/why.yaash/" isExternal>
-                  <Icon as={FiInstagram} />
+                <Link href="https://medium.com/@239yash" isExternal>
+                  <Icon as={SiMedium} />
                 </Link>
               </Text>
               <Text>

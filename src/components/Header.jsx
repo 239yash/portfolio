@@ -36,6 +36,7 @@ import {
   SiLeetcode,
 } from 'react-icons/si'
 import '../index.css'
+import image from '../sketch-pic.jpeg'
 
 export default function Header() {
   return (
@@ -50,10 +51,7 @@ export default function Header() {
           >
             {/* Display Picture */}
             <Box w="36" marginX="auto">
-              <Img
-                borderRadius="full"
-                src="https://i.ibb.co/ZJTFPGk/avatar.png"
-              />
+              <Img borderRadius="full" src={image} />
             </Box>
             {/* Display Picture Ends */}
 
@@ -77,7 +75,7 @@ export default function Header() {
                 lineHeight="110%"
                 fontFamily="mono"
               >
-                Hello, I'm Yash <span className="wave"> 👋🏽</span>
+                Hello, I'm Yash <span className="wave"> 🚀🚀</span>
               </Heading>
             </Box>
             {/* Heading Container Ends */}

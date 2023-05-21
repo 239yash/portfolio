@@ -1,14 +1,14 @@
-import { extendTheme } from '@chakra-ui/react'
-import { mode } from '@chakra-ui/theme-tools'
+import {extendTheme} from '@chakra-ui/react';
+import {mode} from '@chakra-ui/theme-tools';
 
 const styles = {
-  global: props => ({
+  global: (props) => ({
     body: {
       // bg: mode('#f0e7db', '#202023')(props),
       bg: mode('#000', '#000')(props),
     },
   }),
-}
+};
 
 const components = {
   Heading: {
@@ -25,26 +25,26 @@ const components = {
     },
   },
   Link: {
-    baseStyle: props => ({
+    baseStyle: (props) => ({
       // color: mode('#6fcb9f', '#6fcb9f')(props),
       color: mode()(props),
       textUnderlineOffset: 3,
     }),
   },
-}
+};
 
 const fonts = {
-  heading: "'M PLUS Rounded 1c'",
-}
+  heading: '\'M PLUS Rounded 1c\'',
+};
 
 const colors = {
   grassTeal: '#b7e5cf',
-}
+};
 
 const config = {
   initialColorMode: 'dark',
   useSystemColorMode: true,
-}
+};
 
-const theme = extendTheme({ config, styles, components, fonts, colors })
-export default theme
+const theme = extendTheme({config, styles, components, fonts, colors});
+export default theme;

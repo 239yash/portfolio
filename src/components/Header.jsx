@@ -70,7 +70,7 @@ export default function Header() {
               boxSizing="unset"
             >
               <Heading
-                fontWeight={400}
+                fontWeight={800}
                 fontSize={{ base: 20, md: 40 }}
                 alignItems="center"
                 lineHeight="110%"
@@ -125,12 +125,12 @@ export default function Header() {
               </Text>
             </Box>
             <Stack
-              paddingX="14"
+              paddingX="12"
               justify="center"
               direction="row"
               wrap="wrap"
-              fontSize="3.2rem"
-              spacing="6"
+              fontSize="3rem"
+              spacing="5"
             >
               <Link pointerEvents="none">
                 <Icon as={TbBrandCpp} />
@@ -205,7 +205,7 @@ export default function Header() {
               justify={'center'}
               marginY="5"
               fontSize="2.9rem"
-              spacing="6"
+              spacing="5"
             >
               <Text>
                 <Link href="https://github.com/239yash" isExternal>

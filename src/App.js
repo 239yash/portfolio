@@ -1,16 +1,16 @@
-import React from 'react'
-import { ChakraProvider } from '@chakra-ui/react'
-import Header from './components/Header'
-import theme from './theme'
+import React from 'react';
+import {ChakraProvider} from '@chakra-ui/react';
+import Header from './components/Header';
+import theme from './theme';
 
 const App = () => {
   const stars = () => {
-    const row = []
+    const row = [];
     for (let i = 0; i < 20; i++) {
-      row.push(<li />)
+      row.push(<li />);
     }
-    return row
-  }
+    return row;
+  };
 
   return (
     <ChakraProvider theme={theme}>
@@ -21,7 +21,7 @@ const App = () => {
       </div>
       <Header />
     </ChakraProvider>
-  )
-}
+  );
+};
 
-export default App
+export default App;

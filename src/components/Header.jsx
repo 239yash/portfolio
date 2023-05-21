@@ -8,21 +8,18 @@ import {
   Link,
   Icon,
   useColorModeValue,
-  Badge,
   Img,
-} from '@chakra-ui/react'
-import { FiMail, FiGithub, FiInstagram } from 'react-icons/fi'
-import { TbBrandCpp } from 'react-icons/tb'
+} from '@chakra-ui/react';
+import {FiMail, FiGithub} from 'react-icons/fi';
+import {TbBrandCpp} from 'react-icons/tb';
 import {
   FaJs,
   FaNodeJs,
   FaPython,
   FaReact,
-  FaTelegram,
   FaJava,
-  FaGithubSquare,
   FaLinkedinIn,
-} from 'react-icons/fa'
+} from 'react-icons/fa';
 import {
   SiSpringboot,
   SiExpress,
@@ -32,13 +29,13 @@ import {
   SiDocker,
   SiKubernetes,
   SiGithub,
-  SiLinkedin,
   SiLeetcode,
   SiMedium,
-} from 'react-icons/si'
-import '../index.css'
-import image from '../sketch-pic.jpeg'
+} from 'react-icons/si';
+import '../index.css';
+import image from '../sketch-pic.jpeg';
 
+// eslint-disable-next-line require-jsdoc
 export default function Header() {
   return (
     <>
@@ -46,8 +43,8 @@ export default function Header() {
         <Container maxW="60ch">
           <Stack
             as={Box}
-            spacing={{ base: 8, md: 14 }}
-            py={{ base: 30, md: '5rem' }}
+            spacing={{base: 8, md: 14}}
+            py={{base: 30, md: '5rem'}}
             direction="column"
           >
             {/* Display Picture */}
@@ -71,7 +68,7 @@ export default function Header() {
             >
               <Heading
                 fontWeight={800}
-                fontSize={{ base: 20, md: 40 }}
+                fontSize={{base: 20, md: 40}}
                 alignItems="center"
                 lineHeight="110%"
                 fontFamily="mono"
@@ -86,12 +83,13 @@ export default function Header() {
               <Text
                 fontWeight={300}
                 fontFamily="mono"
-                fontSize={{ md: 'large' }}
+                fontSize={{md: 'large'}}
                 marginX="1"
                 boxSizing="content-box"
                 textAlign={'center'}
               >
-                <span className="highlighted-word">A software engineer</span>,{' '}
+                <span className="highlighted-word">A software engineer
+                </span>,{' '}
                 <span className="highlighted-word">full-stack domain</span> and
                 currently at -{' '}
                 <span className="highlighted-word">
@@ -117,7 +115,7 @@ export default function Header() {
             >
               <Text
                 fontWeight={300}
-                fontSize={{ base: 20, md: 40 }}
+                fontSize={{base: 20, md: 40}}
                 alignItems="center"
                 fontFamily="mono"
               >
@@ -192,7 +190,7 @@ export default function Header() {
             >
               <Text
                 fontWeight={300}
-                fontSize={{ base: 20, md: 40 }}
+                fontSize={{base: 20, md: 40}}
                 alignItems="center"
                 fontFamily="mono"
               >
@@ -238,5 +236,5 @@ export default function Header() {
         </Container>
       </Flex>
     </>
-  )
+  );
 }

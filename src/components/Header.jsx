@@ -88,6 +88,7 @@ export default function Header() {
                 marginX="1"
                 boxSizing="content-box"
                 textAlign={'center'}
+                className='text-color'
               >
                 <span className="highlighted-word">A software engineer
                 </span>,{' '}
@@ -130,6 +131,7 @@ export default function Header() {
               wrap="wrap"
               fontSize="3rem"
               spacing="5"
+              className="text-color"
             >
               <Link pointerEvents="none">
                 <Icon as={TbBrandCpp} />

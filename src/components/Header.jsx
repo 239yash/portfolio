@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable react/no-unescaped-entities */
 import {
   Box,
@@ -180,6 +181,106 @@ export default function Header() {
 
 
             {/* Medium Blogs Container */}
+            <Box
+              display="flex"
+              backdropBlur="md"
+              borderColor="black"
+              background={useColorModeValue('gray.200', 'whiteAlpha.100')}
+              paddingX="6"
+              paddingY="2"
+              borderRadius="lg"
+              margin="auto"
+              justifyContent="center"
+              boxSizing="unset"
+            >
+              <Text
+                fontWeight={300}
+                fontSize={{base: 20, md: 40}}
+                alignItems="center"
+                fontFamily="mono"
+              >
+                Blogs
+              </Text>
+            </Box>
+            <Stack
+              as={Box}
+              direction={'column'}
+              justify={'center'}
+              marginY="5"
+              spacing="5"
+              fontWeight={300}
+              fontFamily="mono"
+              fontSize={{md: 'large'}}
+              marginX="1"
+              boxSizing="content-box"
+              textAlign={'center'}
+              className='text-color'
+            >
+              <Text
+                borderColor={useColorModeValue('gray.500', 'whiteAlpha.200')}
+                paddingY="2"
+                borderRadius="lg"
+                borderWidth="0.25rem"
+              >
+                <Link href="https://medium.com/@239yash/how-to-create-custom-annotations-in-springboot-for-validating-data-5ae765d2b001" isExternal>
+                  How to create custom annotations in{' '}
+                  SpringBoot for validating data 🚀 (Link 🔗)
+                </Link>
+              </Text>
+              <Text
+                borderColor={useColorModeValue('gray.500', 'whiteAlpha.200')}
+                paddingY="2"
+                borderRadius="lg"
+                borderWidth="0.25rem"
+              >
+                <Link href="https://medium.com/@239yash/snappy-data-compression-in-nodejs-2701f6f399ae" isExternal>
+                  Snappy data compression in NodeJs (Link 🔗)
+                </Link>
+              </Text>
+              <Text
+                borderColor={useColorModeValue('gray.500', 'whiteAlpha.200')}
+                paddingY="2"
+                borderRadius="lg"
+                borderWidth="0.25rem"
+              >
+                <Link href="https://medium.com/@239yash/reducing-docker-image-build-time-by-caching-node-modules-and-using-a-multi-stage-build-process-f5d84e196346" isExternal>
+                  Reducing Docker image build time by Caching Node modules,{' '}
+                  and using a multi-stage build process. (Link 🔗)
+                </Link>
+              </Text>
+              <Text
+                borderColor={useColorModeValue('gray.500', 'whiteAlpha.200')}
+                paddingY="2"
+                borderRadius="lg"
+                borderWidth="0.25rem"
+              >
+                <Link href="https://medium.com/@239yash/how-to-implement-redis-pipelining-in-node-js-using-ioredis-ba3eab32f1a7" isExternal>
+                  How to implement Redis pipelining in Node.Js using ioredis (Link 🔗)
+                </Link>
+              </Text>
+              <Text
+                borderColor={useColorModeValue('gray.500', 'whiteAlpha.200')}
+                paddingY="2"
+                borderRadius="lg"
+                borderWidth="0.25rem"
+              >
+                <Link href="https://medium.com/@239yash/processing-bulk-mongodb-documents-using-batch-cursors-in-python-f6fe57fe01ba" isExternal>
+                  Processing bulk MongoDB documents using batch cursors{' '}
+                  in Python using pymongo (Link 🔗)
+                </Link>
+              </Text>
+              <Text
+                borderColor={useColorModeValue('gray.500', 'whiteAlpha.200')}
+                paddingY="2"
+                borderRadius="lg"
+                borderWidth="0.25rem"
+              >
+                <Link href="https://medium.com/@239yash/deploying-react-applications-using-docker-in-2-ways-multistage-builds-and-nginx-77e6e95417c3" isExternal>
+                Deploying React Applications using Docker in 2 ways{' '}
+                — MultiStage builds, and Nginx. (Link 🔗)
+                </Link>
+              </Text>
+            </Stack>
             {/* Medium Blogs Container Ends */}
 
             {/* Links Container */}

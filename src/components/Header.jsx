@@ -60,7 +60,7 @@ export default function Header() {
               display="flex"
               backdropBlur="md"
               borderColor="black"
-              background={useColorModeValue('gray.200', 'whiteAlpha.100')}
+              background={useColorModeValue('gray.200', 'whiteAlpha.200')}
               paddingX="6"
               paddingY="3"
               borderRadius="lg"
@@ -108,7 +108,7 @@ export default function Header() {
               display="flex"
               backdropBlur="md"
               borderColor="black"
-              background={useColorModeValue('gray.200', 'whiteAlpha.100')}
+              background={useColorModeValue('gray.200', 'whiteAlpha.200')}
               paddingX="6"
               paddingY="2"
               borderRadius="lg"
@@ -185,7 +185,7 @@ export default function Header() {
               display="flex"
               backdropBlur="md"
               borderColor="black"
-              background={useColorModeValue('gray.200', 'whiteAlpha.100')}
+              background={useColorModeValue('gray.200', 'whiteAlpha.200')}
               paddingX="6"
               paddingY="2"
               borderRadius="lg"
@@ -294,7 +294,7 @@ export default function Header() {
               display="flex"
               backdropBlur="md"
               borderColor="black"
-              background={useColorModeValue('gray.200', 'whiteAlpha.100')}
+              background={useColorModeValue('gray.200', 'whiteAlpha.200')}
               paddingX="6"
               paddingY="2"
               borderRadius="lg"

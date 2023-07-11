@@ -178,6 +178,10 @@ export default function Header() {
             </Stack>
             {/* Tech Stack Container Ends */}
 
+
+            {/* Medium Blogs Container */}
+            {/* Medium Blogs Container Ends */}
+
             {/* Links Container */}
             <Box
               display="flex"

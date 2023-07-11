@@ -208,7 +208,7 @@ export default function Header() {
               justify={'center'}
               marginY="5"
               spacing="5"
-              fontWeight={300}
+              fontWeight={200}
               fontFamily="mono"
               fontSize={{md: 'large'}}
               marginX="1"
@@ -219,29 +219,32 @@ export default function Header() {
               <Text
                 borderColor={useColorModeValue('gray.500', 'whiteAlpha.200')}
                 paddingY="2"
+                paddingX="2"
                 borderRadius="lg"
-                borderWidth="0.25rem"
+                borderWidth="0.2rem"
               >
                 <Link href="https://medium.com/@239yash/how-to-create-custom-annotations-in-springboot-for-validating-data-5ae765d2b001" isExternal>
                   How to create custom annotations in{' '}
-                  SpringBoot for validating data 🚀 (Link 🔗)
+                  SpringBoot for validating data 🚀. (Link 🔗)
                 </Link>
               </Text>
               <Text
                 borderColor={useColorModeValue('gray.500', 'whiteAlpha.200')}
                 paddingY="2"
+                paddingX="2"
                 borderRadius="lg"
-                borderWidth="0.25rem"
+                borderWidth="0.2rem"
               >
                 <Link href="https://medium.com/@239yash/snappy-data-compression-in-nodejs-2701f6f399ae" isExternal>
-                  Snappy data compression in NodeJs (Link 🔗)
+                  Snappy data compression in NodeJs. (Link 🔗)
                 </Link>
               </Text>
               <Text
                 borderColor={useColorModeValue('gray.500', 'whiteAlpha.200')}
                 paddingY="2"
+                paddingX="2"
                 borderRadius="lg"
-                borderWidth="0.25rem"
+                borderWidth="0.2rem"
               >
                 <Link href="https://medium.com/@239yash/reducing-docker-image-build-time-by-caching-node-modules-and-using-a-multi-stage-build-process-f5d84e196346" isExternal>
                   Reducing Docker image build time by Caching Node modules,{' '}
@@ -251,29 +254,32 @@ export default function Header() {
               <Text
                 borderColor={useColorModeValue('gray.500', 'whiteAlpha.200')}
                 paddingY="2"
+                paddingX="2"
                 borderRadius="lg"
-                borderWidth="0.25rem"
+                borderWidth="0.2rem"
               >
                 <Link href="https://medium.com/@239yash/how-to-implement-redis-pipelining-in-node-js-using-ioredis-ba3eab32f1a7" isExternal>
-                  How to implement Redis pipelining in Node.Js using ioredis (Link 🔗)
+                  How to implement Redis pipelining in Node.Js using ioredis. (Link 🔗)
                 </Link>
               </Text>
               <Text
                 borderColor={useColorModeValue('gray.500', 'whiteAlpha.200')}
                 paddingY="2"
+                paddingX="2"
                 borderRadius="lg"
-                borderWidth="0.25rem"
+                borderWidth="0.2rem"
               >
                 <Link href="https://medium.com/@239yash/processing-bulk-mongodb-documents-using-batch-cursors-in-python-f6fe57fe01ba" isExternal>
                   Processing bulk MongoDB documents using batch cursors{' '}
-                  in Python using pymongo (Link 🔗)
+                  in Python using pymongo. (Link 🔗)
                 </Link>
               </Text>
               <Text
                 borderColor={useColorModeValue('gray.500', 'whiteAlpha.200')}
                 paddingY="2"
+                paddingX="2"
                 borderRadius="lg"
-                borderWidth="0.25rem"
+                borderWidth="0.2rem"
               >
                 <Link href="https://medium.com/@239yash/deploying-react-applications-using-docker-in-2-ways-multistage-builds-and-nginx-77e6e95417c3" isExternal>
                 Deploying React Applications using Docker in 2 ways{' '}

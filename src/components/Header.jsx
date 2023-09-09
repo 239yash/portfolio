@@ -98,7 +98,9 @@ export default function Header() {
                 <span className="highlighted-word">
                   Bajaj Finserv Health, Pune.
                 </span>{' '}
-                (2 YOE - FullTime + Internships).
+                Ex-GupShup, Ex-Zorp.
+                <br/>
+                <span>(2 YOE - FullTime + Internships)</span>
               </Text>
             </Box>
             {/* About Container Ends */}

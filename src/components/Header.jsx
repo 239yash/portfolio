@@ -96,11 +96,11 @@ export default function Header() {
                 <span className="highlighted-word">full-stack domain</span> and
                 currently at -{' '}
                 <span className="highlighted-word">
-                  Bajaj Finserv Health, Pune.
+                  BharatPe, Mumbai.
                 </span>{' '}
-                Ex-GupShup, Ex-Zorp.
+                Ex-Bajaj Finserv Health, Ex-GupShup, Ex-Zorp.
                 <br/>
-                <span>(2 YOE - FullTime + Internships)</span>
+                <span>(2.5 YOE - FullTime + Internships)</span>
               </Text>
             </Box>
             {/* About Container Ends */}

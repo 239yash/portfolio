@@ -89,18 +89,14 @@ export default function Header() {
                 marginX="1"
                 boxSizing="content-box"
                 textAlign={'center'}
-                className='text-color'
+                className="text-color"
               >
-                <span className="highlighted-word">A software engineer
-                </span>,{' '}
+                <span className="highlighted-word">A software engineer</span>,{' '}
                 <span className="highlighted-word">full-stack domain</span> and
                 currently at -{' '}
-                <span className="highlighted-word">
-                  BharatPe, Mumbai.
-                </span>{' '}
-                Ex-Bajaj Finserv Health, Ex-GupShup, Ex-Zorp.
-                <br/>
-                <span>(2.5 YOE - FullTime + Internships)</span>
+                <span className="highlighted-word">BharatPe, Mumbai.</span>{' '}
+                Ex-Bajaj Finserv Health, Ex-GupShup, Ex-Zorp. (2.5 YOE -
+                FullTime + Internships)
               </Text>
             </Box>
             {/* About Container Ends */}
@@ -181,7 +177,6 @@ export default function Header() {
             </Stack>
             {/* Tech Stack Container Ends */}
 
-
             {/* Medium Blogs Container */}
             <Box
               display="flex"
@@ -216,7 +211,7 @@ export default function Header() {
               marginX="1"
               boxSizing="content-box"
               textAlign={'center'}
-              className='text-color'
+              className="text-color"
             >
               <Text
                 borderColor={useColorModeValue('gray.500', 'whiteAlpha.200')}
@@ -225,9 +220,12 @@ export default function Header() {
                 borderRadius="lg"
                 borderWidth="0.2rem"
               >
-                <Link href="https://medium.com/@239yash/how-to-create-custom-annotations-in-springboot-for-validating-data-5ae765d2b001" isExternal>
-                  How to create custom annotations in{' '}
-                  SpringBoot for validating data 🚀. (Link 🔗)
+                <Link
+                  href="https://medium.com/@239yash/how-to-create-custom-annotations-in-springboot-for-validating-data-5ae765d2b001"
+                  isExternal
+                >
+                  How to create custom annotations in SpringBoot for validating
+                  data 🚀. (Link 🔗)
                 </Link>
               </Text>
               <Text
@@ -237,7 +235,10 @@ export default function Header() {
                 borderRadius="lg"
                 borderWidth="0.2rem"
               >
-                <Link href="https://medium.com/@239yash/snappy-data-compression-in-nodejs-2701f6f399ae" isExternal>
+                <Link
+                  href="https://medium.com/@239yash/snappy-data-compression-in-nodejs-2701f6f399ae"
+                  isExternal
+                >
                   Snappy data compression in NodeJs. (Link 🔗)
                 </Link>
               </Text>
@@ -248,9 +249,12 @@ export default function Header() {
                 borderRadius="lg"
                 borderWidth="0.2rem"
               >
-                <Link href="https://medium.com/@239yash/reducing-docker-image-build-time-by-caching-node-modules-and-using-a-multi-stage-build-process-f5d84e196346" isExternal>
-                  Reducing Docker image build time by Caching Node modules,{' '}
-                  and using a multi-stage build process. (Link 🔗)
+                <Link
+                  href="https://medium.com/@239yash/reducing-docker-image-build-time-by-caching-node-modules-and-using-a-multi-stage-build-process-f5d84e196346"
+                  isExternal
+                >
+                  Reducing Docker image build time by Caching Node modules, and
+                  using a multi-stage build process. (Link 🔗)
                 </Link>
               </Text>
               <Text
@@ -260,8 +264,12 @@ export default function Header() {
                 borderRadius="lg"
                 borderWidth="0.2rem"
               >
-                <Link href="https://medium.com/@239yash/how-to-implement-redis-pipelining-in-node-js-using-ioredis-ba3eab32f1a7" isExternal>
-                  How to implement Redis pipelining in Node.Js using ioredis. (Link 🔗)
+                <Link
+                  href="https://medium.com/@239yash/how-to-implement-redis-pipelining-in-node-js-using-ioredis-ba3eab32f1a7"
+                  isExternal
+                >
+                  How to implement Redis pipelining in Node.Js using ioredis.
+                  (Link 🔗)
                 </Link>
               </Text>
               <Text
@@ -271,9 +279,12 @@ export default function Header() {
                 borderRadius="lg"
                 borderWidth="0.2rem"
               >
-                <Link href="https://medium.com/@239yash/processing-bulk-mongodb-documents-using-batch-cursors-in-python-f6fe57fe01ba" isExternal>
-                  Processing bulk MongoDB documents using batch cursors{' '}
-                  in Python using pymongo. (Link 🔗)
+                <Link
+                  href="https://medium.com/@239yash/processing-bulk-mongodb-documents-using-batch-cursors-in-python-f6fe57fe01ba"
+                  isExternal
+                >
+                  Processing bulk MongoDB documents using batch cursors in
+                  Python using pymongo. (Link 🔗)
                 </Link>
               </Text>
               <Text
@@ -283,9 +294,12 @@ export default function Header() {
                 borderRadius="lg"
                 borderWidth="0.2rem"
               >
-                <Link href="https://medium.com/@239yash/deploying-react-applications-using-docker-in-2-ways-multistage-builds-and-nginx-77e6e95417c3" isExternal>
-                Deploying React Applications using Docker in 2 ways{' '}
-                — MultiStage builds, and Nginx. (Link 🔗)
+                <Link
+                  href="https://medium.com/@239yash/deploying-react-applications-using-docker-in-2-ways-multistage-builds-and-nginx-77e6e95417c3"
+                  isExternal
+                >
+                  Deploying React Applications using Docker in 2 ways —
+                  MultiStage builds, and Nginx. (Link 🔗)
                 </Link>
               </Text>
             </Stack>
@@ -348,6 +362,21 @@ export default function Header() {
               </Text>
             </Stack>
             {/* Links Container Ends */}
+
+            {/* CopyRight Container */}
+            <Box alignItems="center">
+              <Text
+                fontWeight={300}
+                fontFamily="mono"
+                fontSize={{md: 'small'}}
+                boxSizing="content-box"
+                textAlign={'center'}
+                className="text-color"
+              >
+                <span >© 2023 by Yash Gupta</span>
+              </Text>
+            </Box>
+            {/* CopyRight Container Ends */}
           </Stack>
         </Container>
       </Flex>

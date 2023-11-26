@@ -69,13 +69,13 @@ export default function Header() {
               boxSizing="unset"
             >
               <Heading
-                fontWeight={800}
+                fontWeight={300}
                 fontSize={{base: 20, md: 40}}
                 alignItems="center"
                 lineHeight="110%"
                 fontFamily="mono"
               >
-                Hello, I'm Yash <span className="wave"> 🚀🚀</span>
+                Hello, I'm Yash
               </Heading>
             </Box>
             {/* Heading Container Ends */}
@@ -213,6 +213,20 @@ export default function Header() {
               textAlign={'center'}
               className="text-color"
             >
+              <Text
+                borderColor={useColorModeValue('gray.500', 'whiteAlpha.200')}
+                paddingY="2"
+                paddingX="2"
+                borderRadius="lg"
+                borderWidth="0.2rem"
+              >
+                <Link
+                  href="https://medium.com/@239yash/building-resiliency-in-spring-boot-applications-in-case-of-dependency-failures-implementing-e9152d406c82"
+                  isExternal
+                >
+                  Building resiliency in spring boot applications in case of dependency failures — Implementing Circuit Breaker (Resilience4j)🚀
+                </Link>
+              </Text>
               <Text
                 borderColor={useColorModeValue('gray.500', 'whiteAlpha.200')}
                 paddingY="2"

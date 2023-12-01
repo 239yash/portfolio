@@ -39,6 +39,7 @@ import image from '../sketch-pic.jpeg';
 
 // eslint-disable-next-line require-jsdoc
 export default function Header() {
+  const font = 'IBM Plex Mono';
   return (
     <>
       <Flex>
@@ -73,7 +74,7 @@ export default function Header() {
                 fontSize={{base: 20, md: 40}}
                 alignItems="center"
                 lineHeight="110%"
-                fontFamily="mono"
+                fontFamily={font}
               >
                 Hello, I'm Yash
               </Heading>
@@ -84,7 +85,7 @@ export default function Header() {
             <Box alignItems="center">
               <Text
                 fontWeight={300}
-                fontFamily="mono"
+                fontFamily={font}
                 fontSize={{md: 'large'}}
                 marginX="1"
                 boxSizing="content-box"
@@ -118,7 +119,7 @@ export default function Header() {
                 fontWeight={300}
                 fontSize={{base: 20, md: 40}}
                 alignItems="center"
-                fontFamily="mono"
+                fontFamily={font}
               >
                 Tech Stacks
               </Text>
@@ -194,7 +195,7 @@ export default function Header() {
                 fontWeight={300}
                 fontSize={{base: 20, md: 40}}
                 alignItems="center"
-                fontFamily="mono"
+                fontFamily={font}
               >
                 Blogs
               </Text>
@@ -206,7 +207,7 @@ export default function Header() {
               marginY="5"
               spacing="5"
               fontWeight={200}
-              fontFamily="mono"
+              fontFamily={font}
               fontSize={{md: 'large'}}
               marginX="1"
               boxSizing="content-box"
@@ -336,7 +337,7 @@ export default function Header() {
                 fontWeight={300}
                 fontSize={{base: 20, md: 40}}
                 alignItems="center"
-                fontFamily="mono"
+                fontFamily={font}
               >
                 Links
               </Text>
@@ -381,7 +382,7 @@ export default function Header() {
             <Box alignItems="center">
               <Text
                 fontWeight={300}
-                fontFamily="mono"
+                fontFamily={font}
                 fontSize={{md: 'small'}}
                 boxSizing="content-box"
                 textAlign={'center'}

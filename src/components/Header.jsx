@@ -21,6 +21,7 @@ import {
   FaReact,
   FaJava,
   FaLinkedinIn,
+  FaTwitter,
 } from 'react-icons/fa';
 import {
   SiSpringboot,
@@ -344,8 +345,9 @@ export default function Header() {
             </Box>
             <Stack
               as={Box}
-              direction={'row'}
-              justify={'center'}
+              justify="center"
+              direction="row"
+              wrap="wrap"
               marginY="5"
               fontSize="2.9rem"
               spacing="5"
@@ -371,6 +373,11 @@ export default function Header() {
                 </Link>
               </Text>
               <Text>
+                <Link href="https://twitter.com/239yash" isExternal>
+                  <Icon as={FaTwitter} />
+                </Link>
+              </Text>
+              <Text>
                 <Link href="mailto:239yash@gmail.com" isExternal>
                   <Icon as={FiMail} />
                 </Link>
@@ -388,7 +395,7 @@ export default function Header() {
                 textAlign={'center'}
                 className="text-color"
               >
-                <span >© 2023 by Yash Gupta</span>
+                <span >© 2024 by Yash Gupta</span>
               </Text>
             </Box>
             {/* CopyRight Container Ends */}

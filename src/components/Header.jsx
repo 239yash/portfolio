@@ -32,7 +32,6 @@ import {
   SiDocker,
   SiKubernetes,
   SiGithub,
-  SiLeetcode,
   SiMedium,
 } from 'react-icons/si';
 import '../index.css';

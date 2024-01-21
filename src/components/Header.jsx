@@ -362,11 +362,11 @@ export default function Header() {
                   <Icon as={FaLinkedinIn} />
                 </Link>
               </Text>
-              <Text>
+              {/* <Text>
                 <Link href="https://leetcode.com/239yash" isExternal>
                   <Icon as={SiLeetcode} />
                 </Link>
-              </Text>
+              </Text> */}
               <Text>
                 <Link href="https://medium.com/@239yash" isExternal>
                   <Icon as={SiMedium} />

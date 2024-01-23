@@ -16,7 +16,6 @@ import {FiMail, FiGithub} from 'react-icons/fi';
 import {TbBrandCpp} from 'react-icons/tb';
 import {
   FaJs,
-  FaNodeJs,
   FaPython,
   FaReact,
   FaJava,
@@ -25,14 +24,15 @@ import {
 } from 'react-icons/fa';
 import {
   SiSpringboot,
-  SiExpress,
-  SiMysql,
   SiMongodb,
   SiRedis,
   SiDocker,
   SiKubernetes,
   SiGithub,
   SiMedium,
+  SiPostgresql,
+  SiLeetcode,
+  SiPeerlist,
 } from 'react-icons/si';
 import '../index.css';
 import image from '../sketch-pic.jpeg';
@@ -130,7 +130,7 @@ export default function Header() {
               direction="row"
               wrap="wrap"
               fontSize="3rem"
-              spacing="5"
+              spacing="4"
               className="text-color"
             >
               <Link pointerEvents="none">
@@ -152,13 +152,7 @@ export default function Header() {
                 <Icon as={FaReact} />
               </Link>
               <Link pointerEvents="none">
-                <Icon as={FaNodeJs} />
-              </Link>
-              <Link pointerEvents="none">
-                <Icon as={SiExpress} />
-              </Link>
-              <Link pointerEvents="none">
-                <Icon as={SiMysql} />
+                <Icon as={SiPostgresql} />
               </Link>
               <Link pointerEvents="none">
                 <Icon as={SiMongodb} />
@@ -348,8 +342,8 @@ export default function Header() {
               direction="row"
               wrap="wrap"
               marginY="5"
-              fontSize="2.9rem"
-              spacing="5"
+              fontSize="2rem"
+              spacing="3"
             >
               <Text>
                 <Link href="https://github.com/239yash" isExternal>
@@ -361,11 +355,16 @@ export default function Header() {
                   <Icon as={FaLinkedinIn} />
                 </Link>
               </Text>
-              {/* <Text>
+              <Text>
                 <Link href="https://leetcode.com/239yash" isExternal>
                   <Icon as={SiLeetcode} />
                 </Link>
-              </Text> */}
+              </Text>
+              <Text>
+                <Link href="https://peerlist.io/239yash" isExternal>
+                  <Icon as={SiPeerlist} />
+                </Link>
+              </Text>
               <Text>
                 <Link href="https://medium.com/@239yash" isExternal>
                   <Icon as={SiMedium} />

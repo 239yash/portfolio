@@ -219,7 +219,7 @@ export default function Header() {
                   href="https://medium.com/@239yash/building-resiliency-in-spring-boot-applications-in-case-of-dependency-failures-implementing-e9152d406c82"
                   isExternal
                 >
-                  Building resiliency in spring boot applications in case of dependency failures — Implementing Circuit Breaker (Resilience4j)🚀
+                  Building resiliency in spring boot applications in case of dependency failures — Implementing Circuit Breaker (Resilience4j)🚀 (Link 🔗)
                 </Link>
               </Text>
               <Text

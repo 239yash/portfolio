@@ -92,12 +92,20 @@ export default function Header() {
                 textAlign={'center'}
                 className="text-color"
               >
-                <span className="highlighted-word">A software engineer</span>,{' '}
+                <span className="highlighted-word">A polyglot software engineer</span>,{' '}
+                <span className="highlighted-word">full-stack domain</span> and
+                currently at -{' '}
+                <span className="highlighted-word">BharatPe, Mumbai.</span>{' '}
+                Ex-Bajaj Finserv Health, Ex-GupShup, Ex-Zorp. (3 YOE -
+                FullTime + Internships)
+                <br></br>
+                <br></br>
+                {/* <span className="highlighted-word">A software engineer</span>,{' '}
                 <span className="highlighted-word">full-stack domain</span> and
                 currently at -{' '}
                 <span className="highlighted-word">BharatPe, Mumbai.</span>{' '}
                 Ex-Bajaj Finserv Health, Ex-GupShup, Ex-Zorp. (2.5 YOE -
-                FullTime + Internships)
+                FullTime + Internships) */}
               </Text>
             </Box>
             {/* About Container Ends */}

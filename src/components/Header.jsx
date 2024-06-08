@@ -100,12 +100,7 @@ export default function Header() {
                 FullTime + Internships)
                 <br></br>
                 <br></br>
-                {/* <span className="highlighted-word">A software engineer</span>,{' '}
-                <span className="highlighted-word">full-stack domain</span> and
-                currently at -{' '}
-                <span className="highlighted-word">BharatPe, Mumbai.</span>{' '}
-                Ex-Bajaj Finserv Health, Ex-GupShup, Ex-Zorp. (2.5 YOE -
-                FullTime + Internships) */}
+                Always curious to know about the disasters that occurred on Earth and follow the stories related to them. <span className="highlighted-word">See Ya!</span>
               </Text>
             </Box>
             {/* About Container Ends */}
